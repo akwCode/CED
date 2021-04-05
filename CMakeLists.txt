@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_CXX_STANDARD 14)
 
 # Where to find CMake modules and OpenCV
-set(OpenCV_DIR "/home/negentro/Documents/dev/5390/opencv_installation")
+set(OpenCV_DIR "../opencv_installation")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
 find_package(OpenCV REQUIRED)
