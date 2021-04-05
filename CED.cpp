@@ -10,9 +10,21 @@ using namespace cv;
 int main(int argc, char* argv[]) {
 
   // load image
-  String imgName = argv[1];
+  String imgName;
+  if (argc > 1)
+    imgName = argv[1];
+  else
+    imgName = "eskimo.png";
+
   String imgPath = "../testImages/" + imgName;
+
   Mat src = imread(imgPath, IMREAD_GRAYSCALE);
+
+  if (src.empty()) {
+    std::cout << imgName + " is not a valid image." << std::endl;
+    return 0;
+  }
+
   imshow("src", src);
 
   // apply Gaussian filter
