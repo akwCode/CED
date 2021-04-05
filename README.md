@@ -38,7 +38,7 @@ make
 To run the program simply cd into the build folder (after building the project), and run the executable. The program allows you to run the Canny Edge Detector on any of the images located in the testImages directory. Simply specify the name of the image as the first argument. Example:
 ```
 cd build
-./CED "bug.png"
+./CED bug.png
 ```
 
-If no image is specified, the program will default to `"eskimo.png"`
+If no image is specified, the program will default to `eskimo.png`
