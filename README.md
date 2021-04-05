@@ -13,22 +13,22 @@ set(OpenCV_DIR "YOUR_PATH")
 
 Once you have OpenCV properly install and included in your CMakeLists.txt, you can proceed with building the project.
 
-First, cd into the directory where you have cloned this repository.
+First, cd into the directory where you have cloned this repository:
 ```
 cd ../CED
 ```
 
-Then create an empty build directory 
+Then create an empty build directory:
 ```
 mkdir build
 ```
 
-Then generate the makefiles
+Then generate the makefiles:
 ```
 cmake -S . -B build/
 ```
 
-And finally cd into the build directory, and build the project
+And finally cd into the build directory, and build the project:
 ```
 cd build
 make
