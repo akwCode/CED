@@ -6,7 +6,7 @@ This repo contains an example implementation of the Canny Edge Detector. It uses
 ## Build
 Before building this project, you must have the C++ OpenCV library installed. Instructions to download the library can be found [here](https://docs.opencv.org/master/d0/d3d/tutorial_general_install.html), on the OpenCV website. Make sure to make the appropriate changes in the CMakeLists.txt file to reflect the location of your installation.
 
-The only line you should have to modify
+The only line you should have to modify:
 ```
 set(OpenCV_DIR "YOUR_PATH")
 ```
